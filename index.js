@@ -13,7 +13,7 @@ function countDown(number)
 {
   while(number >= 0)
   {
-    console.log(`countdown ${number}`);
+    console.log(`${number}`);
     number--;
   }
 }
