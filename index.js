@@ -11,7 +11,7 @@ return messages;
 
 function countDown(number)
 {
-  while(number > 0)
+  while(number >= 0)
   {
     console.log(`countdown ${number}`);
     number--;
